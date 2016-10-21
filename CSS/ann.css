@@ -1,0 +1,173 @@
+/*Polytrauma Conference Style Sheet - Main Styles for Site*/
+
+body {
+background-color: #a39cb6;
+padding: 0em;
+margin: 0em;
+font-size: 1em;
+font-family: Verdana, Helvetica, Arial, sans-serif; }
+
+/*the wrapper work-arounds for IE5 Windows are below body & wrapper to center page content */
+
+#wrapper {
+width: 822px;
+background-color: black;
+margin: 0 auto; }
+
+#body {
+text-align: center;}
+
+#wrapper { 
+text-align: left;}
+
+/*main navigation at top of page is in-line list*/
+#navigation {
+height: 30px;}
+
+#masthead {
+background-repeat: repeat-x;
+padding-top: 115px;
+padding-bottom: 30px;
+background-position: 0px 0px;
+height: 225px;
+width: 612px;
+background-image: url(../images/banner.jpg); }
+
+.separator {
+height: 5px;
+background-color: #a9a9a9;
+clear: both;
+margin-bottom: 2em; }
+
+.separatorInvisible {
+height: 0px;
+clear: both;}
+
+/*footer */
+
+#footer {
+clear:both;
+text-align: right;
+padding: 20px 10px;}
+
+#footer a {
+color: #ffffff}
+
+#footer a:hover {
+color: #dddddd}
+
+#navigation ul  {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#navigation li  {
+float: left;
+margin: 0px;
+padding: 0px;
+display: inline;
+border-bottom: 5px solid #777777;
+background-image: url(../../images/sand1.png);
+background-repeat: no-repeat;
+background-position: left top; }
+
+#navigation a {
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: bold;
+text-transform: capitalize;
+padding-top: 7px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 30px;
+height: 30px;
+width: 200px; }
+
+#navigation a:hover {
+background-image: url(../../images/sand2.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+#navigation a:active {
+background-image: url(../../images/sand3.png);
+background-repeat: no-repeat;
+background-position: left top;
+}
+/*secondary navigation at left side 198 wide*/
+#subnav {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 198px; 
+display: block;}
+
+#subnav ul li {
+display: list-item;
+margin: 0px;
+padding: 0px; }
+
+#subnav ul {
+padding: 0px;
+margin: 0px; }
+
+#subnav ul li a:link, #subnav ul li a:visited {}
+
+#subnav ul li a:hover {}
+
+#content {
+position: relative;
+width: 779px;}
+
+p {
+font-size: 85%;
+line-height: 1.4em;
+padding-left: 1.4em;
+margin-top: 0;
+margin-bottom: 1em;
+}
+
+h1, h2 {
+color: #555555;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 10px;
+margin-left: 0px;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 2px;
+padding-left: 0px; }
+
+
+/*text block must be 198 from left sub nav */
+
+#main-text {
+border-bottom: 1px #000000 solid;
+border-left: 1px #000000 solid;
+border-right: 1px #000000 solid;
+background-color: #ffffff;
+margin-left: 198px;
+padding: 10px; }
+
+
+#div#topOfPageAnchor {
+position: absolute;
+top: 0;
+left: 0;
+height: 0;
+width: 0;}
+
+#footer {
+clear: both;
+text-align: center;
+padding: 20px 10px;
+font-size: .85em;
+color: blue; }
+
+#footer a  {
+color: #f0bc22;}
+
+#footer a:hover  {
+color: #dddddd;}
